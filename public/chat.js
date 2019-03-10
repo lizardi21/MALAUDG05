@@ -1,5 +1,5 @@
 // Make Connection
-var socket = io.connect('http://localhost:5000/');
+var socket = io.connect('https://mala-udg-05.herokuapp.com/');
 
 // Query DOM
 var message = document.getElementById('message');
