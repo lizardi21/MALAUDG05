@@ -6,8 +6,8 @@ var PORT = process.env.PORT || 5000;
 
 var app = express();
 
-var server = app.listen(5000, function(){
-    console.log('listening to requests on port 5000');
+var server = app.listen(PORT, function(){
+    console.log('listening to requests on port ' + PORT);
 });
 
 // Static files
